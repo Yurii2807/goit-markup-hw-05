@@ -596,9 +596,18 @@ h6 {
     align-items: center;
     gap: 24px;
 }
+.subscribe-item {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFF;
+}
 
 .footer-form {
-    
+    display: flex;
+    gap: 24px;
 }
 
 .input-tittle {
@@ -615,26 +624,35 @@ h6 {
 }
 
 .input-email {
+    color: #FFFFFF;
     width: 264px;
     height: 40px;
-    background: transparent;
-    border-radius: 4px;
     border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .input-btn {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    columns: #fff;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
     background-color: #4d5ae5;
-    border-radius: 4px;
-    margin: 0 auto;
-    justify-content: space-around;
+    border: none;
+    border-radius: 4px;  
 }
-.icon {
-    color: #FFFFFF;
-    margin: 0 24 16;
+.icon-frame-3 {
+    margin-left: 16px;
 }
