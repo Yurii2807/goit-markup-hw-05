@@ -131,7 +131,7 @@ h6 {
     background-color: rgba(46, 47, 66, 0.40);
     opacity: 0;
     visibility: hidden;
-    position: none;
+    position: relative;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-open {
@@ -177,6 +177,10 @@ h6 {
 .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+    fill: #FFFFFF;
+}
 
 .modal-close-btn:hover>.modal-close-icon,
 .modal-close-btn:focus>.modal-close-icon {
@@ -185,9 +189,7 @@ h6 {
 .modal-text {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -240,7 +242,22 @@ h6 {
 
 .label-checkbox {}
 
-.privacy {}
+.privacy {
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .check-icon {}
 
@@ -572,4 +589,52 @@ h6 {
 }
 .section-icon-footer {
     fill: #f4f4fd;
+}
+
+.email-btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-form {
+    
+}
+
+.input-tittle {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.input-email::placeholder {
+    padding: 8px 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.input-email {
+    width: 264px;
+    height: 40px;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.input-btn {
+    width: 165px;
+    height: 40px;
+    columns: #fff;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.icon {
+    color: #FFFFFF;
+    margin: 0 24 16;
 }

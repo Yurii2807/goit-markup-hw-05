@@ -41,20 +41,20 @@
     <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close-btn">
-                <svg class="modal-close-icon" width="8" height="8" >
+                <svg class="modal-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
-            <form class="modal-form" name="contact-form">
+            <form class="modal-form" action="modal-page" novalidate autocomplete="off" name="contact-form">
                 <div class="label-container">
-                    <label for="user-name" class="modal-label">Name</label>
-                </div>
-                <div class="container-input">
+                    <label class="modal-label" for="user-name">Name</label>
+                    <div class="container-input">
                     <input class="modal-input" type="text" name="user-name" id="user-name">
                     <swg class="icon-input" width="18" height="24">
                         <use href="./images/icons.svg#icon-person-black"></use>
                     </swg>
+                    </div>
                 </div>
                 <div class="label-container">
                     <label for="user-phone" class="modal-label">Phone</label>
@@ -79,18 +79,19 @@
                     <textarea class="textarea" name="user-comment" placeholder="Text input" id="user-comment"></textarea>
                 </div>
                 <div class="checkbox">
-                    <input class="form-check visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
+                    <input class="form-check visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+                        value="true" />
                     <label for="user-privacy" class="label-checkbox">
                         <span class="privacy">
                             <swg class="check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-checkbox"></use>
                             </swg>
-                        </span>I accept the terms and conditions of the 
+                        </span>I accept the terms and conditions of the
                         <a class="check-link" href="">Privacy Policy</a>
                     </label>
                 </div>
                 <button class="send-btn" type="submit">Send</button>
-            </form>    
+            </form>
         </div>
     </div>
     <main>
@@ -442,6 +443,18 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="email-btn">
+                <form class="footer-form" name="footer-form">
+                    <label class="input-tittle">Subscribe</label>
+                    <input class="input-email" type="email" name="user-email" placeholder="E-mail">
+                </form>
+                <button class="input-btn" type="submit">Subscribe
+
+                    <svg class="icon icon-frame-3" width="24" height="24">
+                        <use href="./images/icons.svg#icon icon-frame-3"></use>
+                    </svg>
+                </button>
             </div>
         </div>    
     </footer>
