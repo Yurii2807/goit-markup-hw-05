@@ -700,7 +700,11 @@ h6 {
     justify-content: center;
     fill: transparent;
 }
-
+.form-check:checked + .privacy span {
+    border: none;
+    fill: #f4f4fd;
+    background-color: #404bbf;
+}
 
 .check-icon {}
 
