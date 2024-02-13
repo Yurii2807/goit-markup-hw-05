@@ -700,7 +700,7 @@ h6 {
     justify-content: center;
     fill: transparent;
 }
-.form-check:checked + .privacy {
+.form-check:checked .privacy {
     border: none;
     fill: #f4f4fd;
 }
