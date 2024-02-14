@@ -641,7 +641,7 @@ h6 {
 }
 
 .modal-input:focus + .icon-input {
-    fill: #4D5AE5;
+    
 }
 .icon-input {
     position: absolute;
