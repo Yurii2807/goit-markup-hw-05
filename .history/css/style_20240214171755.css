@@ -678,9 +678,7 @@ h6 {
     margin-bottom: 24px;
 }
 
-.form-check {
-
-}
+.form-check {}
 
 .visually-hidden {}
 
@@ -689,7 +687,7 @@ h6 {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-
+    gap: 8px;
 }
 
 .privacy {
@@ -701,7 +699,7 @@ h6 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;    
+    fill: transparent;
 }
 
 

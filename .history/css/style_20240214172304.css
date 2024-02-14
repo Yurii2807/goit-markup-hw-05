@@ -678,9 +678,7 @@ h6 {
     margin-bottom: 24px;
 }
 
-.form-check {
-
-}
+.form-check {}
 
 .visually-hidden {}
 
@@ -702,6 +700,7 @@ h6 {
     align-items: center;
     justify-content: center;
     fill: transparent;    
+    gap: 8px;
 }
 
 

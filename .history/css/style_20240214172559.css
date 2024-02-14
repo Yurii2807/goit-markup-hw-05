@@ -679,7 +679,7 @@ h6 {
 }
 
 .form-check {
-
+    gap: 8px;
 }
 
 .visually-hidden {}
