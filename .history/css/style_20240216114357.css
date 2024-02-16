@@ -452,7 +452,7 @@ h6 {
 }
 
 .email-btn {
-    margin-left: 80px;
+    
 }
 .subscribe-item {
     color: #FFF; 
@@ -462,7 +462,6 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-right: 80px;
 }
 
 .footer-form {
@@ -485,10 +484,9 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    
 }
 .input-email::placeholder {
-    
+    padding: 8px 16px;
     color: rgb(255, 255, 255);
     border: none;
 }
@@ -502,6 +500,7 @@ h6 {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    padding-left: 16px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -522,6 +521,7 @@ h6 {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px; 
+    text-align: start; 
 }
 
 .input-btn:hover,
